@@ -11,7 +11,7 @@ public class BinarySearch {
             System.out.println("Element not Found");
         }
     }
-
+    //Best Time Complexity o(1) and worst O(logN)
     private static int binarySearching(int[] arr, int tar) {
         //return index if element found else return -1
         int start = 0;
